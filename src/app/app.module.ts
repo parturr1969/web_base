@@ -5,9 +5,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import {AuthenticationModule} from './authentication/authentication.module';
 import {AppRoutingModule} from './app-routing.module';
-import {UsersService} from './shared/services/users.service';
-import {AuthenticationService} from './shared/services/authentication.service';
-import {SystemModule} from './system/system.module';
+
 
 @NgModule({
   declarations: [
